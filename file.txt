@@ -16,3 +16,30 @@ Requirements:
 
 
 =======================================================================================================================
+
+Create two new pages for the website:
+
+1. Privacy Policy
+2. Terms & Conditions
+
+Requirements:
+- Create separate HTML templates:
+  - `privacy-policy.html`
+  - `terms-and-conditions.html`
+- Use the existing `@template/base.html` layout by extending it.
+- Keep the pages clean and professional with basic placeholder content that can be edited later.
+- Include a page title (H1) and multiple sections with headings and paragraphs.
+- Do not add any custom CSS or JavaScript. Use the existing project styling only.
+- Make the content responsive by relying on the existing layout.
+
+Also update `@app.py`:
+- Add routes for both pages:
+  - `/privacy-policy`
+  - `/terms-and-conditions`
+- Render the corresponding templates.
+- Update the footer links in `@template/base.html` to point to these new routes instead of `#`.
+
+Do not modify any other existing functionality or routes.
+
+
+=======================================================================================================================
