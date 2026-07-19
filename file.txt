@@ -1,0 +1,18 @@
+Update the file `@template/base.html`.
+
+Add a very basic footer at the bottom of the page. Do not add any special styling or custom design.
+
+Requirements:
+- Add a semantic `<footer>` element.
+- Include two plain text links:
+  - Privacy Policy
+  - Terms & Conditions
+- Use placeholder href values (`#`) for now. I'll replace them with the actual pages later.
+- Keep the footer minimal with only basic HTML.
+- Do not modify any existing layout, styles, or functionality.
+- Ensure the footer appears on every page that uses `@template/base.html`.
+
+
+
+
+=======================================================================================================================
